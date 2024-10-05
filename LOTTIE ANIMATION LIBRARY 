@@ -27,7 +27,8 @@ implementation 'com.airbnb.android:lottie:6.5.2'
     -->>  USE INTERNET PERMITION  -->>
 <uses-permission android:name="android.permission.INTERNET" />
 
-\\---------------------NOTE--------------------------------------//
+\\---------------------NOTE---------------------//
+
 --> FOR LATEST VERSION SEARCH ON BROWSER
 --> USE LATEST VERSION FOR LATEST FUTURE
 --> LOTTIE ANIMATION LATEST VERSION
