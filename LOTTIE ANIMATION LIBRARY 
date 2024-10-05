@@ -1,15 +1,15 @@
-LOTTIE ANIMATION LIBRARY iMPLEMENT
-THIS IS FOR ANIMATION
-OFFICAL LINK -> (https://github.com/airbnb/lottie-android)
-implementation 'com.airbnb.android:lottie:6.5.2' 
+//---LOTTIE ANIMATION LIBRARY iMPLEMENT---//
+//---THIS IS FOR ANIMATION---//
+//---OFFICAL LINK ->---// //---(https://github.com/airbnb/lottie-android)---//
+//---implementation 'com.airbnb.android:lottie:6.5.2'---//
 
 
--->>  USE INTERNET PERMITION  -->>
-<uses-permission android:name="android.permission.INTERNET" />
+//----->>  USE INTERNET PERMITION  -->>---//
+//---<uses-permission android:name="android.permission.INTERNET" />---//
 
 //----------------XML-----------------//
 
--->> USE JSON LINK -->>
+//---->> USE JSON LINK -->>---//
 
 <com.airbnb.lottie.LottieAnimationView
      android:id="@+id/animationView"
@@ -19,7 +19,7 @@ implementation 'com.airbnb.android:lottie:6.5.2'
      app:lottie_autoPlay="true"
      app:lottie_loop="true"/>
 
--->> USE DWONLOOD JSON FILE -->>
+//--->> USE DWONLOOD JSON FILE -->>---//
 
 <com.airbnb.lottie.LottieAnimationView
     android:id="@+id/animationView"
@@ -31,7 +31,7 @@ implementation 'com.airbnb.android:lottie:6.5.2'
 
 \\---------------------NOTE---------------------//
 
---> FOR LATEST VERSION SEARCH ON BROWSER
---> USE LATEST VERSION FOR LATEST FUTURE
---> LOTTIE ANIMATION LATEST VERSION
---> implementation 'com.airbnb.android:lottie:LATEST-VERSION' 
+//-----> FOR LATEST VERSION SEARCH ON BROWSER
+//-----> USE LATEST VERSION FOR LATEST FUTURE
+//-----> LOTTIE ANIMATION LATEST VERSION
+//-----> implementation 'com.airbnb.android:lottie:LATEST-VERSION' ---//
