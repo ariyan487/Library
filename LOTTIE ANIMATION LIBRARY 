@@ -3,6 +3,12 @@ THIS IS FOR ANIMATION
 OFFICAL LINK -> (https://github.com/airbnb/lottie-android)
 implementation 'com.airbnb.android:lottie:6.5.2' 
 
+
+-->>  USE INTERNET PERMITION  -->>
+<uses-permission android:name="android.permission.INTERNET" />
+
+//----------------XML-----------------//
+
 -->> USE JSON LINK -->>
 
 <com.airbnb.lottie.LottieAnimationView
@@ -13,7 +19,7 @@ implementation 'com.airbnb.android:lottie:6.5.2'
      app:lottie_autoPlay="true"
      app:lottie_loop="true"/>
 
--->> USE DWONLOOD FILE -->>
+-->> USE DWONLOOD JSON FILE -->>
 
 <com.airbnb.lottie.LottieAnimationView
     android:id="@+id/animationView"
@@ -22,10 +28,6 @@ implementation 'com.airbnb.android:lottie:6.5.2'
     app:lottie_rawRes="@raw/animation"
     app:lottie_autoPlay="true"
     app:lottie_loop="true"/>
-
-
-    -->>  USE INTERNET PERMITION  -->>
-<uses-permission android:name="android.permission.INTERNET" />
 
 \\---------------------NOTE---------------------//
 
