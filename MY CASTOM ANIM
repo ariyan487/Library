@@ -1,0 +1,9 @@
+Animation my_anim;
+        my_anim = AnimationUtils.loadAnimation(MainActivity.this,R.anim.zoom_in);
+        img = findViewById(R.id.img);
+        Picasso.get()
+                .load("https://img.freepik.com/free-vector/realistic-halloween-background_23-2148616369.jpg?")
+                .into(img);
+        img.startAnimation(my_anim);
+    }
+}
