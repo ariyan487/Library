@@ -17,6 +17,6 @@ implementation 'com.squareup.picasso:picasso:2.8'
 Picasso.get()
    .load("YOUR IMAGE URL HERE")
    .into(imageView);
-
+//---------MANIFAST------------//
 -->>  USE INTERNET PERMITION  -->>
 <uses-permission android:name="android.permission.INTERNET" />
